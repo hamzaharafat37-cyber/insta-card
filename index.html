@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <base href="/">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="Description" content="Demonstration for insta-card">
+
+  <style>
+    :root, html, body {
+      margin: var(--ddd-spacing-0);
+      padding: var(--ddd-spacing-0);
+    }
+    #demo {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+    insta-card:hover {
+      box-shadow: var(--ddd-boxShadow-sm);
+    }
+    #example {
+      --insta-card-font-size: var(--ddd-font-size-l);
+      background-color: var(--ddd-accent-2);
+      color: var(--ddd-primary-17);
+    }
+  </style>
+  <title>insta-card</title>
+</head>
+
+<body>
+  <div id="demo">
+    <h1>insta-card</h1>
+    <!-- this is going to do whatever the tag's defaults are -->
+    <h2>Default</h2>
+<insta-card></insta-card>
+  </div>
+  <script type="module" src="./src/insta-card.js"></script>
+</body>
+</html>
