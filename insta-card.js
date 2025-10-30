@@ -8,7 +8,7 @@ import { I18NMixin } from "@haxtheweb/i18n-manager/lib/I18NMixin.js";
 
 const FOX_API = "https://randomfox.ca/floof/";
 
-export class InstaCard extends DDDSuper(I18NMixin(LitElement)) {
+export class InstaCard extends DDDSuper(I18NMixin(LitElement)) { 
 
   static get tag() {
     return "insta-card";

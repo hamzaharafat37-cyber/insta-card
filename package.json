@@ -10,7 +10,7 @@
     "url": "https://github.com/hamzaharafat37-cyber/insta-card"
   },
   "type": "module",
-  "main": "src/insta-card.js",
+  "main": "src/insta-card.js", 
   "module": "src/insta-card.js",
   "scripts": {
     "start": "web-dev-server --open --node-resolve --watch --port 8000",
